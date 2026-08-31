@@ -1,0 +1,48 @@
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+package-lock.json
+
+# Java / Backend
+target/
+build/
+.mvn/
+*.class
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+~$*
+
+# Documentation & Generated artifacts
+*.docx
+*.pdf
+*.zip
+AMAGEN_PHARMA_ITR_FINAL/
+diagrams/
+skit_logo.png
+generate_diagrams.js
+
+# Internal guides and scripts (do not commit to repo)
+WEEKWISE_GITHUB_COMMITS_GUIDE.md
+GIT_COMMIT_SCHEDULE_25_WEEKS.md
+generate_git_history.ps1
+build_full_srs.ps1
+chapter*.ps1
+generate_perfect_srs.ps1
+srs_content.ps1
+test_helper.ps1
