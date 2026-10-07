@@ -1,0 +1,15 @@
+package com.amagen.ems.model;
+
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Data
+@Document("counters")
+public class Counter {
+
+    @Id
+    private String id;
+
+    private long seq;
+}
