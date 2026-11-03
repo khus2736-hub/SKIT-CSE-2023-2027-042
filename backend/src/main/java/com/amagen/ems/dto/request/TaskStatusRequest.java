@@ -1,0 +1,9 @@
+package com.amagen.ems.dto.request;
+
+import com.amagen.ems.model.enums.TaskStatus;
+import jakarta.validation.constraints.NotNull;
+
+public record TaskStatusRequest(
+    @NotNull(message = "Status is required")
+    TaskStatus status
+) {}
