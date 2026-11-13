@@ -32,6 +32,8 @@ Thumbs.db
 *.docx
 *.pdf
 *.zip
+!weekly_reports/
+!weekly_reports/**
 AMAGEN_PHARMA_ITR_FINAL/
 diagrams/
 skit_logo.png
@@ -40,6 +42,7 @@ generate_diagrams.js
 # Internal guides and scripts (do not commit to repo)
 WEEKWISE_GITHUB_COMMITS_GUIDE.md
 GIT_COMMIT_SCHEDULE_25_WEEKS.md
+*MANUAL*.md
 generate_git_history.ps1
 build_full_srs.ps1
 chapter*.ps1
