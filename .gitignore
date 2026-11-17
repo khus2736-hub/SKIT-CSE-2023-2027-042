@@ -43,6 +43,7 @@ generate_diagrams.js
 WEEKWISE_GITHUB_COMMITS_GUIDE.md
 GIT_COMMIT_SCHEDULE_25_WEEKS.md
 *MANUAL*.md
+run_project.*
 generate_git_history.ps1
 build_full_srs.ps1
 chapter*.ps1
